@@ -1,6 +1,8 @@
+public void setup() {     
+    Cow c = new Cow("cow", "moo");   
+    System.out.println(c.getType() + " goes " + c.getSound()); 
 
-void setup()
-{
-	//your variable declarations here
+    Farm newFarm = new Farm();
+    newFarm.animalSounds();
+
 }
-
